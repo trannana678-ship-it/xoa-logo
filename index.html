@@ -1,0 +1,1653 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ECEFF3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1217" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-title" content="Xoá Logo">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A76B2'/%3E%3Cpath d='M18 38 34 22l12 12-16 16H20z' fill='%23fff'/%3E%3Cpath d='M18 38 28 28l12 12-10 10H20z' fill='%23D4177B'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<title>Xoá Logo Gemini</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a proofing desk. The corner loupe with trim marks sits on the left, the measured controls on the right; on a phone they stack. */
+:root {
+  --bg: #ECEFF3;
+  --panel: #FFFFFF;
+  --ink: #11161C;
+  --muted: #566270;
+  --line: #D2D8DF;
+  --soft: #E3E7EC;
+  --accent: #0A76B2;
+  --on-accent: #FFFFFF;
+  --mask: #D4177B;
+  --good: #167F57;
+  --warn: #9A5F08;
+  --bad: #B42318;
+  --f-display: 'Bricolage Grotesque', 'Be Vietnam Pro', system-ui, sans-serif;
+  --f-body: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1217; --panel: #161B22; --ink: #E8EDF2; --muted: #9AA6B2; --line: #2A323C; --soft: #1E252E;
+    --accent: #47B4EE; --on-accent: #06202F; --mask: #FF5BAA; --good: #4CC38A; --warn: #E3A74A; --bad: #FF7A70;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1217; --panel: #161B22; --ink: #E8EDF2; --muted: #9AA6B2; --line: #2A323C; --soft: #1E252E;
+  --accent: #47B4EE; --on-accent: #06202F; --mask: #FF5BAA; --good: #4CC38A; --warn: #E3A74A; --bad: #FF7A70;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 15px/1.55 var(--f-body);
+  padding-block: 28px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+.wrap { max-width: 1040px; margin-inline: auto; display: flex; flex-direction: column; gap: 20px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button { font: inherit; color: inherit; }
+
+/* header */
+.top { display: flex; flex-direction: column; gap: 8px; }
+h1 { font: 700 clamp(30px, 6vw, 44px)/1.04 var(--f-display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--muted); max-width: 60ch; text-wrap: pretty; }
+
+/* buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 0 18px; border-radius: 8px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--panel); font-weight: 500; text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
+.btn.primary:hover { filter: brightness(1.06); }
+.btn[disabled] { opacity: .45; cursor: not-allowed; }
+.btn.small { min-height: 36px; padding: 0 12px; font-size: 14px; }
+
+/* add */
+.add {
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  padding: 16px; border: 1.5px dashed var(--line); border-radius: 12px; background: var(--panel);
+}
+.add.over { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--panel)); }
+.add p { margin: 0; color: var(--muted); flex: 1 1 240px; min-width: 0; }
+
+/* file strip */
+.files { list-style: none; margin: 0; padding: 0 0 4px; display: flex; gap: 10px; overflow-x: auto; scrollbar-width: thin; }
+.files:empty { display: none; }
+.files li { position: relative; flex: 0 0 auto; }
+.thumb {
+  display: grid; grid-template-columns: 52px minmax(0, 140px); gap: 10px; align-items: center; text-align: left;
+  padding: 6px 30px 6px 6px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); cursor: pointer;
+}
+.thumb[aria-current="true"] { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.thumb img { width: 52px; height: 52px; object-fit: cover; border-radius: 6px; background: var(--soft); display: block; outline: 1px solid var(--line); outline-offset: -1px; }
+.thumb .meta { display: flex; flex-direction: column; min-width: 0; gap: 2px; }
+.thumb .nm { font-size: 13px; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chip { font: 500 12px/1 var(--f-mono); display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
+.chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+.chip.done { color: var(--good); } .chip.done::before { background: var(--good); }
+.chip.busy, .chip.pending { color: var(--warn); } .chip.busy::before, .chip.pending::before { background: var(--warn); }
+.chip.error { color: var(--bad); } .chip.error::before { background: var(--bad); }
+.rm {
+  position: absolute; top: 4px; right: 4px; width: 26px; height: 26px; border-radius: 50%; border: 0;
+  background: transparent; color: var(--muted); cursor: pointer; font-size: 18px; line-height: 1;
+}
+.rm:hover { background: var(--soft); color: var(--ink); }
+
+/* desk */
+.desk { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .desk { grid-template-columns: minmax(0, 1fr); } }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px; min-width: 0; }
+.stage { display: flex; flex-direction: column; gap: 14px; }
+.stage-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.label { font: 600 12px/1 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; }
+.seg button { border: 0; background: transparent; padding: 0 16px; min-height: 38px; cursor: pointer; font-weight: 500; color: var(--muted); }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+.seg button[disabled] { opacity: .4; cursor: not-allowed; }
+.stage .line { display: flex; gap: 10px; flex-wrap: wrap; }
+.stage .line .btn { flex: 1 1 180px; }
+
+.frame { position: relative; margin: 22px; max-width: 100%; }
+.frame-in { position: relative; width: 100%; max-width: 480px; margin-inline: auto; }
+.loupe { position: relative; aspect-ratio: 1 / 1; width: 100%; max-width: 100%; background: var(--soft); outline: 1px solid var(--line); overflow: hidden; }
+.loupe canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.loupe #ov { pointer-events: none; }
+.busy {
+  position: absolute; left: 8px; bottom: 8px; padding: 5px 9px; border-radius: 6px;
+  background: var(--panel); color: var(--ink); font: 500 12px/1 var(--f-mono); border: 1px solid var(--line);
+}
+/* trim marks, like the ones printed outside a manga page */
+.tm { position: absolute; width: 0; height: 0; pointer-events: none; }
+.tm::before, .tm::after { content: ""; position: absolute; background: var(--ink); }
+.tm::before { height: 1px; width: 14px; top: 0; }
+.tm::after { width: 1px; height: 14px; left: 0; }
+.tm.tl { left: 0; top: 0; } .tm.tl::before { left: -20px; } .tm.tl::after { top: -20px; }
+.tm.tr { left: 100%; top: 0; } .tm.tr::before { left: 6px; } .tm.tr::after { top: -20px; }
+.tm.bl { left: 0; top: 100%; } .tm.bl::before { left: -20px; } .tm.bl::after { top: 6px; }
+.tm.br { left: 100%; top: 100%; } .tm.br::before { left: 6px; } .tm.br::after { top: 6px; }
+.cap { margin: 0; font: 500 12.5px/1.4 var(--f-mono); color: var(--muted); }
+.note { margin: 0; color: var(--ink); min-height: 3.1em; text-wrap: pretty; }
+.note.warn { color: var(--warn); }
+
+/* controls */
+.spec { display: flex; flex-direction: column; gap: 18px; }
+.rows { display: flex; flex-direction: column; gap: 14px; }
+.row { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 12px; row-gap: 4px; align-items: baseline; }
+.row .name { font-weight: 500; }
+.row .val { font: 500 14px/1 var(--f-mono); font-variant-numeric: tabular-nums; color: var(--accent); }
+.row .ctl { grid-column: 1 / -1; display: grid; grid-template-columns: 36px minmax(0, 1fr) 36px; gap: 8px; align-items: center; }
+.row input[type="range"] { width: 100%; min-width: 0; accent-color: var(--accent); height: 36px; margin: 0; }
+.step { width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); cursor: pointer; font-size: 18px; line-height: 1; }
+.step:hover { border-color: var(--muted); }
+.pair { display: flex; gap: 10px; flex-wrap: wrap; }
+.pair .btn { flex: 1 1 140px; }
+.rule { height: 1px; background: var(--line); border: 0; margin: 0; }
+.adv { border: 1px solid var(--line); border-radius: 10px; padding: 0 14px; }
+.adv > summary { list-style: none; cursor: pointer; min-height: 44px; display: flex; align-items: center; gap: 10px; font-weight: 500; }
+.adv > summary::-webkit-details-marker { display: none; }
+.adv > summary::before { content: ""; flex: none; width: 7px; height: 7px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(-45deg); }
+.adv[open] > summary::before { transform: rotate(45deg); }
+.adv-body { display: flex; flex-direction: column; gap: 16px; padding: 4px 0 16px; }
+.how { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.how .name { font-weight: 500; }
+.out { display: flex; flex-direction: column; gap: 10px; }
+.out .line { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.out .line .btn { flex: 1 1 180px; }
+.hint { margin: 0; font-size: 13.5px; color: var(--muted); text-wrap: pretty; }
+.fallback { display: flex; flex-direction: column; gap: 10px; }
+.fallback img { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--soft); }
+.fine { margin: 0; font-size: 13px; color: var(--muted); max-width: 70ch; text-wrap: pretty; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (prefers-reduced-motion: no-preference) { .btn, .thumb { transition: border-color .15s, background-color .15s; } }
+</style>
+<style>html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Xoá Logo Gemini</h1>
+    <p class="lead">Logo Gemini là một ngôi sao trắng mờ phủ lên ảnh. Trang dò đúng ngôi sao đó rồi trừ ngược lớp trắng, nên nét mực bên dưới hiện lại thay vì bị vá bằng nền. Chỗ nào chưa chắc, bạn xem vùng sẽ bị thay rồi tự bấm xoá. Mọi thứ chạy ngay trên máy của bạn, ảnh không bị tải lên đâu cả.</p>
+  </header>
+
+  <section class="add" id="drop" aria-label="Thêm ảnh">
+    <label class="btn primary" for="pick">Chọn ảnh</label>
+    <input id="pick" class="sr" type="file" accept="image/*" multiple>
+    <p>Hoặc kéo ảnh vào đây, hoặc dán bằng Ctrl/⌘ + V. Chọn được nhiều ảnh một lúc, mỗi ảnh được dò riêng.</p>
+  </section>
+
+  <ul class="files" id="files" aria-label="Danh sách ảnh"></ul>
+
+  <main class="desk" id="desk">
+    <section class="card stage" aria-label="Góc dưới bên phải của ảnh, phóng to">
+      <div class="stage-head">
+        <span class="label">Góc dưới bên phải</span>
+        <div class="seg" role="group" aria-label="Chế độ xem">
+          <button type="button" id="vAfter" aria-pressed="true">Đã xoá</button>
+          <button type="button" id="vBefore" aria-pressed="false">Gốc</button>
+        </div>
+      </div>
+      <div class="frame">
+        <i class="tm tl"></i><i class="tm tr"></i><i class="tm bl"></i><i class="tm br"></i>
+        <div class="frame-in">
+          <div class="loupe">
+            <canvas id="cv" aria-label="Ảnh phóng to ở góc dưới bên phải"></canvas>
+            <canvas id="ov" aria-hidden="true"></canvas>
+            <span class="busy" id="busy" hidden>Đang xoá…</span>
+          </div>
+        </div>
+      </div>
+      <p class="cap" id="cap">&nbsp;</p>
+      <p class="note" id="note" aria-live="polite"></p>
+      <div class="line">
+        <button type="button" class="btn primary" id="bRemove" hidden>Xoá logo</button>
+        <button type="button" class="btn" id="bAll" hidden>Xoá cả các ảnh chờ xoá</button>
+      </div>
+    </section>
+
+    <section class="card spec" aria-label="Chỉnh vùng xoá">
+      <div class="rows">
+        <div class="label">Vùng xoá</div>
+        <div class="row">
+          <label class="name" for="rSize">Cỡ logo</label><output class="val" id="oSize" for="rSize">96 px</output>
+          <div class="ctl"><button type="button" class="step" data-k="size" data-d="-1" aria-label="Giảm cỡ logo">−</button><input type="range" id="rSize" min="24" max="256" step="1" value="96"><button type="button" class="step" data-k="size" data-d="1" aria-label="Tăng cỡ logo">+</button></div>
+        </div>
+        <div class="row">
+          <label class="name" for="rRight">Cách mép phải</label><output class="val" id="oRight" for="rRight">64 px</output>
+          <div class="ctl"><button type="button" class="step" data-k="right" data-d="-1" aria-label="Giảm khoảng cách mép phải">−</button><input type="range" id="rRight" min="0" max="400" step="1" value="64"><button type="button" class="step" data-k="right" data-d="1" aria-label="Tăng khoảng cách mép phải">+</button></div>
+        </div>
+        <div class="row">
+          <label class="name" for="rBottom">Cách mép dưới</label><output class="val" id="oBottom" for="rBottom">64 px</output>
+          <div class="ctl"><button type="button" class="step" data-k="bottom" data-d="-1" aria-label="Giảm khoảng cách mép dưới">−</button><input type="range" id="rBottom" min="0" max="400" step="1" value="64"><button type="button" class="step" data-k="bottom" data-d="1" aria-label="Tăng khoảng cách mép dưới">+</button></div>
+        </div>
+      </div>
+      <div class="pair">
+        <button type="button" class="btn small" id="bDetect">Dò kỹ hơn</button>
+        <button type="button" class="btn small" id="bStd">Về vị trí chuẩn</button>
+      </div>
+      <p class="hint">Bấm “Gốc” để thấy vùng màu hồng: đó là hình ngôi sao sẽ được trừ ngược. “Dò kỹ hơn” hợp với ảnh đã bị cắt hoặc thu phóng nên logo không còn đúng chỗ chuẩn.</p>
+      <details class="adv" id="adv">
+        <summary>Nâng cao</summary>
+        <div class="adv-body">
+          <div class="how">
+            <span class="name">Cách xoá</span>
+            <div class="seg" role="group" aria-label="Cách xoá">
+              <button type="button" id="mUnblend" aria-pressed="true">Trừ lớp logo</button>
+              <button type="button" id="mPatch" aria-pressed="false">Vá nền</button>
+            </div>
+            <p class="hint" id="how"></p>
+          </div>
+          <div class="row" id="rowAlpha">
+            <label class="name" for="rAlpha">Độ đục của logo</label><output class="val" id="oAlpha" for="rAlpha">50 %</output>
+            <div class="ctl"><button type="button" class="step" data-k="alpha" data-d="-1" aria-label="Giảm độ đục">−</button><input type="range" id="rAlpha" min="20" max="80" step="1" value="50"><button type="button" class="step" data-k="alpha" data-d="1" aria-label="Tăng độ đục">+</button></div>
+          </div>
+          <div class="row" id="rowGrow">
+            <label class="name" for="rGrow">Nới rộng vùng xoá</label><output class="val" id="oGrow" for="rGrow">0 px</output>
+            <div class="ctl"><button type="button" class="step" data-k="grow" data-d="-1" aria-label="Giảm nới rộng">−</button><input type="range" id="rGrow" min="0" max="4" step="1" value="0"><button type="button" class="step" data-k="grow" data-d="1" aria-label="Tăng nới rộng">+</button></div>
+          </div>
+        </div>
+      </details>
+      <hr class="rule">
+      <div class="out">
+        <span class="label">Lưu ảnh</span>
+        <div class="seg" role="group" aria-label="Định dạng tệp" style="align-self:flex-start">
+          <button type="button" id="fPng" aria-pressed="true">PNG</button>
+          <button type="button" id="fJpg" aria-pressed="false">JPG</button>
+        </div>
+        <div class="line">
+          <button type="button" class="btn primary" id="dlOne" disabled>Tải ảnh này</button>
+          <button type="button" class="btn" id="dlAll" hidden>Tải tất cả (.zip)</button>
+        </div>
+        <p class="hint" id="dlMsg" aria-live="polite"></p>
+        <div class="fallback" id="fallback" hidden>
+          <p class="hint" id="fbText"></p>
+          <img id="fbImg" alt="Ảnh đã xoá logo">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <p class="fine">Công cụ chỉ xoá logo nhìn thấy trên ảnh. Dấu nhận diện ẩn trong ảnh (nếu có) không bị thay đổi. Hãy dùng ảnh gốc còn logo: ảnh đã bị che hoặc vá logo bằng cách khác thì không phục hồi lại được. Logo trắng trên nền trắng gần như vô hình nên không cần xoá.</p>
+</div>
+
+<script>
+/* Pixel engine: finds the Gemini corner mark and takes it off the picture. No DOM, runs in a browser, a worker or Node. */
+(function (root) {
+  'use strict';
+
+  var P = 0.78;     // outline exponent of the generic patch-repaint shape: |u|^P + |v|^P <= 1
+
+  function clamp(v, lo, hi) { return v < lo ? lo : (v > hi ? hi : v); }
+
+  /* Where the logo normally sits: a square box whose margin to the right and bottom edges is 2/3 of its side. */
+  function defaultGeometry(W, H) {
+    var size = (W > 1024 && H > 1024) ? 96 : 48;
+    var m = Math.round(size * 2 / 3);
+    return { size: size, right: m, bottom: m };
+  }
+
+  function xorshift(seed) {
+    var s = (seed >>> 0) || 1;
+    return function () {
+      s = (s ^ (s << 13)) >>> 0;
+      s = (s ^ (s >>> 17)) >>> 0;
+      s = (s ^ (s << 5)) >>> 0;
+      return s / 4294967296;
+    };
+  }
+
+  /* Squared distance to the nearest non-zero pixel (Felzenszwalb & Huttenlocher). */
+  function edtSq(src, w, h) {
+    var n = Math.max(w, h), INF = 1e20;
+    var out = new Float32Array(w * h);
+    var f = new Float64Array(n), dd = new Float64Array(n), v = new Int32Array(n), z = new Float64Array(n + 1);
+    var i, x, y;
+    for (i = 0; i < w * h; i++) out[i] = src[i] ? 0 : INF;
+    function run(len) {
+      var k = 0, q, s;
+      v[0] = 0; z[0] = -INF; z[1] = INF;
+      for (q = 1; q < len; q++) {
+        s = ((f[q] + q * q) - (f[v[k]] + v[k] * v[k])) / (2 * q - 2 * v[k]);
+        while (s <= z[k]) {
+          k--;
+          s = ((f[q] + q * q) - (f[v[k]] + v[k] * v[k])) / (2 * q - 2 * v[k]);
+        }
+        k++; v[k] = q; z[k] = s; z[k + 1] = INF;
+      }
+      k = 0;
+      for (q = 0; q < len; q++) {
+        while (z[k + 1] < q) k++;
+        dd[q] = (q - v[k]) * (q - v[k]) + f[v[k]];
+      }
+    }
+    for (x = 0; x < w; x++) {
+      for (y = 0; y < h; y++) f[y] = out[y * w + x];
+      run(h);
+      for (y = 0; y < h; y++) out[y * w + x] = dd[y];
+    }
+    for (y = 0; y < h; y++) {
+      for (x = 0; x < w; x++) f[x] = out[y * w + x];
+      run(w);
+      for (x = 0; x < w; x++) out[y * w + x] = dd[x];
+    }
+    return out;
+  }
+
+  /* Fills pixels whose weight is 0 from the ones whose weight is 1, smoothly (push-pull pyramid). */
+  function pushPull(vals, wts, w, h, nc) {
+    var lv = [{ w: w, h: h, v: vals, t: wts }];
+    var cur = lv[0], acc = new Float64Array(nc), c, x, y, dx, dy;
+    while (cur.w > 1 || cur.h > 1) {
+      var nw = (cur.w + 1) >> 1, nh = (cur.h + 1) >> 1;
+      var nv = new Float32Array(nw * nh * nc), nt = new Float32Array(nw * nh);
+      for (y = 0; y < nh; y++) {
+        for (x = 0; x < nw; x++) {
+          var sw = 0;
+          for (c = 0; c < nc; c++) acc[c] = 0;
+          for (dy = 0; dy < 2; dy++) {
+            var yy = 2 * y + dy; if (yy >= cur.h) continue;
+            for (dx = 0; dx < 2; dx++) {
+              var xx = 2 * x + dx; if (xx >= cur.w) continue;
+              var i = yy * cur.w + xx, t = cur.t[i];
+              if (t <= 0) continue;
+              sw += t;
+              for (c = 0; c < nc; c++) acc[c] += t * cur.v[i * nc + c];
+            }
+          }
+          var j = y * nw + x;
+          if (sw > 0) {
+            for (c = 0; c < nc; c++) nv[j * nc + c] = acc[c] / sw;
+            nt[j] = sw > 1 ? 1 : sw;
+          }
+        }
+      }
+      cur = { w: nw, h: nh, v: nv, t: nt };
+      lv.push(cur);
+    }
+    var res = new Array(lv.length);
+    res[lv.length - 1] = lv[lv.length - 1].v;
+    for (var k = lv.length - 2; k >= 0; k--) {
+      var L = lv[k], C = lv[k + 1], Cr = res[k + 1];
+      var out = new Float32Array(L.w * L.h * nc);
+      for (y = 0; y < L.h; y++) {
+        var fy = (y + 0.5) * 0.5 - 0.5, y0 = Math.floor(fy), ay = fy - y0;
+        var ya = clamp(y0, 0, C.h - 1), yb = clamp(y0 + 1, 0, C.h - 1);
+        for (x = 0; x < L.w; x++) {
+          var ii = y * L.w + x, tt = L.t[ii];
+          if (tt >= 1) {
+            for (c = 0; c < nc; c++) out[ii * nc + c] = L.v[ii * nc + c];
+            continue;
+          }
+          var fx = (x + 0.5) * 0.5 - 0.5, x0 = Math.floor(fx), ax = fx - x0;
+          var xa = clamp(x0, 0, C.w - 1), xb = clamp(x0 + 1, 0, C.w - 1);
+          for (c = 0; c < nc; c++) {
+            var up = (1 - ay) * ((1 - ax) * Cr[(ya * C.w + xa) * nc + c] + ax * Cr[(ya * C.w + xb) * nc + c]) +
+                     ay * ((1 - ax) * Cr[(yb * C.w + xa) * nc + c] + ax * Cr[(yb * C.w + xb) * nc + c]);
+            out[ii * nc + c] = tt > 0 ? tt * L.v[ii * nc + c] + (1 - tt) * up : up;
+          }
+        }
+      }
+      res[k] = out;
+    }
+    return res[0];
+  }
+
+  /* Number of flagged pixels inside the (2r+1)-square around every pixel. */
+  function boxCount(flag, w, h, r) {
+    var W1 = w + 1, S = new Int32Array(W1 * (h + 1)), x, y;
+    for (y = 0; y < h; y++) {
+      var row = 0;
+      for (x = 0; x < w; x++) {
+        row += flag[y * w + x] ? 1 : 0;
+        S[(y + 1) * W1 + x + 1] = S[y * W1 + x + 1] + row;
+      }
+    }
+    var out = new Int32Array(w * h);
+    for (y = 0; y < h; y++) {
+      var y1 = Math.max(0, y - r), y2 = Math.min(h - 1, y + r);
+      for (x = 0; x < w; x++) {
+        var x1 = Math.max(0, x - r), x2 = Math.min(w - 1, x + r);
+        out[y * w + x] = S[(y2 + 1) * W1 + x2 + 1] - S[y1 * W1 + x2 + 1] - S[(y2 + 1) * W1 + x1] + S[y1 * W1 + x1];
+      }
+    }
+    return out;
+  }
+
+  /* Weighted squared difference of the (2pr+1)-square patches around (px,py) and (qx,qy); stops early at cut. */
+  function patchDistW(J, Wt, W, H, pr, px, py, qx, qy, cut) {
+    var s = 0;
+    for (var dy = -pr; dy <= pr; dy++) {
+      var ty = py + dy; ty = ty < 0 ? 0 : (ty >= H ? H - 1 : ty);
+      var trow = ty * W, srow = (qy + dy) * W;
+      for (var dx = -pr; dx <= pr; dx++) {
+        var tx = px + dx; tx = tx < 0 ? 0 : (tx >= W ? W - 1 : tx);
+        var ti = trow + tx, si = srow + qx + dx, wt = Wt[ti];
+        var a = ti * 3, b = si * 3;
+        var d0 = J[a] - J[b], d1 = J[a + 1] - J[b + 1], d2 = J[a + 2] - J[b + 2];
+        s += wt * (d0 * d0 + d1 * d1 + d2 * d2);
+      }
+      if (s >= cut) return s;
+    }
+    return s;
+  }
+
+  /*
+   * Exemplar-based fill. J holds the observed colours, with the guide colours inside the hole;
+   * Wt is how much each pixel counts when matching (1 = known, less = guessed). Sources come only from
+   * patches that touch no hole pixel. Returns the nearest-neighbour offsets for the hole pixels.
+   */
+  function patchMatchFill(J, Wt, hole, W, H, pr) {
+    var rnd = xorshift(20241023), i, x, y;
+    var overlap = boxCount(hole, W, H, pr), valid = new Uint8Array(W * H), validList = [], centers = [];
+    for (y = 0; y < H; y++) {
+      for (x = 0; x < W; x++) {
+        i = y * W + x;
+        if (x >= pr && x < W - pr && y >= pr && y < H - pr && overlap[i] === 0) { valid[i] = 1; validList.push(i); }
+        if (hole[i]) centers.push(i);
+      }
+    }
+    if (!validList.length || !centers.length) return null;
+    var nc = centers.length, nnx = new Int32Array(W * H), nny = new Int32Array(W * H), has = new Uint8Array(W * H);
+    var best = new Float64Array(W * H), k;
+    for (k = 0; k < nc; k++) {
+      var ci = centers[k], rv = validList[(rnd() * validList.length) | 0];
+      var qy = (rv / W) | 0, qx = rv - qy * W, py = (ci / W) | 0, px = ci - py * W;
+      nnx[ci] = qx; nny[ci] = qy; has[ci] = 1;
+      best[ci] = patchDistW(J, Wt, W, H, pr, px, py, qx, qy, Infinity);
+    }
+    var iters = 10, it, maxR = Math.max(W, H) >> 1;
+    for (it = 0; it < iters; it++) {
+      var fwd = (it % 2 === 0);
+      for (k = 0; k < nc; k++) {
+        var c0 = fwd ? centers[k] : centers[nc - 1 - k];
+        var py0 = (c0 / W) | 0, px0 = c0 - py0 * W;
+        var bx = nnx[c0], by = nny[c0], bd = best[c0];
+        var nx1 = fwd ? px0 - 1 : px0 + 1, n1 = fwd ? c0 - 1 : c0 + 1;
+        if (nx1 >= 0 && nx1 < W && has[n1]) {
+          var q1x = nnx[n1] + (px0 - nx1), q1y = nny[n1];
+          if (q1x >= 0 && q1x < W && q1y >= 0 && q1y < H && valid[q1y * W + q1x]) {
+            var d1 = patchDistW(J, Wt, W, H, pr, px0, py0, q1x, q1y, bd);
+            if (d1 < bd) { bd = d1; bx = q1x; by = q1y; }
+          }
+        }
+        var ny2 = fwd ? py0 - 1 : py0 + 1, n2 = fwd ? c0 - W : c0 + W;
+        if (ny2 >= 0 && ny2 < H && has[n2]) {
+          var q2x = nnx[n2], q2y = nny[n2] + (py0 - ny2);
+          if (q2x >= 0 && q2x < W && q2y >= 0 && q2y < H && valid[q2y * W + q2x]) {
+            var d2 = patchDistW(J, Wt, W, H, pr, px0, py0, q2x, q2y, bd);
+            if (d2 < bd) { bd = d2; bx = q2x; by = q2y; }
+          }
+        }
+        for (var R = maxR; R >= 1; R = R >> 1) {
+          var q3x = bx + ((rnd() * (2 * R + 1)) | 0) - R, q3y = by + ((rnd() * (2 * R + 1)) | 0) - R;
+          if (q3x < 0 || q3x >= W || q3y < 0 || q3y >= H || !valid[q3y * W + q3x]) continue;
+          var d3 = patchDistW(J, Wt, W, H, pr, px0, py0, q3x, q3y, bd);
+          if (d3 < bd) { bd = d3; bx = q3x; by = q3y; }
+        }
+        nnx[c0] = bx; nny[c0] = by; best[c0] = bd;
+      }
+    }
+    return { x: nnx, y: nny, centers: centers };
+  }
+
+  function buildShape(prm, w, h) {
+    var r = prm.size / 2, grow = Math.max(0, prm.grow || 0), edge = 1;
+    var pad = Math.ceil(grow) + edge + 3;
+    var x0 = Math.max(0, Math.floor(prm.cx - r) - pad), y0 = Math.max(0, Math.floor(prm.cy - r) - pad);
+    var x1 = Math.min(w, Math.ceil(prm.cx + r) + pad), y1 = Math.min(h, Math.ceil(prm.cy + r) + pad);
+    var rw = x1 - x0, rh = y1 - y0;
+    if (rw < 8 || rh < 8 || r < 3) return null;
+    var star = new Uint8Array(rw * rh), cnt = 0, x, y, i;
+    for (y = 0; y < rh; y++) {
+      var v = Math.abs(y0 + y + 0.5 - prm.cy) / r;
+      if (v > 1) continue;
+      var pv = Math.pow(v, P);
+      for (x = 0; x < rw; x++) {
+        var u = Math.abs(x0 + x + 0.5 - prm.cx) / r;
+        if (u > 1) continue;
+        if (Math.pow(u, P) + pv <= 1) { star[y * rw + x] = 1; cnt++; }
+      }
+    }
+    if (!cnt) return null;
+    var d2 = edtSq(star, rw, rh), alpha = new Float32Array(rw * rh);
+    for (i = 0; i < rw * rh; i++) alpha[i] = clamp((grow + edge - Math.sqrt(d2[i])) / edge, 0, 1);
+    return { x0: x0, y0: y0, x1: x1, y1: y1, w: rw, h: rh, alpha: alpha };
+  }
+
+  /*
+   * Repaints the logo area of img (RGBA, modified in place) from its surroundings. Fallback for marks of unknown make.
+   * prm: { cx, cy  centre in pixels of img, size  side of the logo box, grow  extra pixels around the shape }
+   * Returns { changed, method, shape: {x0, y0, w, h, alpha} }.
+   */
+  function removePatch(img, prm) {
+    var w = img.w, h = img.h, d = img.data;
+    var r = prm.size / 2, grow = Math.max(0, prm.grow || 0);
+    var shape = buildShape(prm, w, h), none = { changed: false, method: 'none', shape: null };
+    if (!shape) return none;
+    var x0 = shape.x0, y0 = shape.y0, x1 = shape.x1, y1 = shape.y1, rw = shape.w, rh = shape.h, alpha = shape.alpha;
+    var x, y, i, c;
+    // work area: the shape plus plenty of surroundings to borrow from
+    var margin = Math.max(40, Math.round(prm.size * 2.5));
+    var qx0 = Math.max(0, x0 - margin), qy0 = Math.max(0, y0 - margin), qx1 = Math.min(w, x1 + margin), qy1 = Math.min(h, y1 + margin);
+    var qw = qx1 - qx0, qh = qy1 - qy0;
+    var obs = new Float32Array(qw * qh * 3), hole = new Uint8Array(qw * qh), core = new Uint8Array(qw * qh);
+    for (y = 0; y < qh; y++) {
+      for (x = 0; x < qw; x++) {
+        var p = ((qy0 + y) * w + qx0 + x) * 4, k = y * qw + x;
+        obs[k * 3] = d[p]; obs[k * 3 + 1] = d[p + 1]; obs[k * 3 + 2] = d[p + 2];
+      }
+    }
+    for (y = 0; y < rh; y++) for (x = 0; x < rw; x++) if (alpha[y * rw + x] > 0) hole[(y0 - qy0 + y) * qw + (x0 - qx0 + x)] = 1;
+    // the part that most likely still carries the faint logo: guide colours undo an assumed 40% white overlay there
+    var A0 = 0.4, PC = 0.62, rc = r * 0.97;
+    for (y = 0; y < qh; y++) {
+      var cv = Math.abs(qy0 + y + 0.5 - prm.cy) / rc;
+      if (cv > 1) continue;
+      var pcv = Math.pow(cv, PC);
+      for (x = 0; x < qw; x++) {
+        var cu = Math.abs(qx0 + x + 0.5 - prm.cx) / rc;
+        if (cu <= 1 && Math.pow(cu, PC) + pcv <= 1) core[y * qw + x] = 1;
+      }
+    }
+    var J = new Float32Array(obs), Wt = new Float32Array(qw * qh);
+    for (i = 0; i < qw * qh; i++) {
+      if (!hole[i]) { Wt[i] = 1; continue; }
+      if (core[i]) {
+        for (c = 0; c < 3; c++) J[i * 3 + c] = clamp((obs[i * 3 + c] - 255 * A0) / (1 - A0), 0, 255);
+        Wt[i] = 0.45;
+      } else {
+        Wt[i] = 0.8;
+      }
+    }
+    var nn = null, method = 'patch';
+    try { nn = patchMatchFill(J, Wt, hole, qw, qh, 3); } catch (e) { nn = null; }
+    var filled;
+    if (nn) {
+      filled = new Float32Array(obs);
+      for (var m = 0; m < nn.centers.length; m++) {
+        var ci2 = nn.centers[m], si2 = nn.y[ci2] * qw + nn.x[ci2];
+        for (c = 0; c < 3; c++) {
+          var cand = obs[si2 * 3 + c], lim = obs[ci2 * 3 + c] + 4;
+          filled[ci2 * 3 + c] = cand > lim ? lim : cand;   // a white overlay can only brighten, so the true pixel is never brighter than what we see
+        }
+      }
+    } else {
+      method = 'diffuse';
+      var wts = new Float32Array(qw * qh);
+      for (i = 0; i < qw * qh; i++) wts[i] = hole[i] ? 0 : 1;
+      filled = pushPull(obs, wts, qw, qh, 3);
+    }
+    for (y = 0; y < rh; y++) {
+      for (x = 0; x < rw; x++) {
+        var al = alpha[y * rw + x];
+        if (al <= 0) continue;
+        var kk = (y0 - qy0 + y) * qw + (x0 - qx0 + x), pp = ((y0 + y) * w + x0 + x) * 4;
+        for (c = 0; c < 3; c++) {
+          var fv = clamp(filled[kk * 3 + c], 0, 255), ov = d[pp + c];
+          d[pp + c] = Math.round(ov + al * (fv - ov));
+        }
+      }
+    }
+    return { changed: true, method: method, shape: shape };
+  }
+
+  /* ------------------------------------------------------------------------------------------
+   * The mark itself. Measured on an untouched Gemini export (1662 x 2592): a FLAT 50 % white
+   * four-point star with an anti-aliased edge; every pixel of black ink under it reads exactly 128.
+   * Compositing is   seen = (1 - a) * truth + 255 * a   with   a = 0.5 * coverage,
+   * so   truth = (seen - 255 a) / (1 - a)   exactly, wherever the coverage is known.
+   * Big images carry it 96 px tall with a 64 px margin, small ones 48 px with a 32 px margin.
+   * The arm half-width (96 px scale, d = distance from the tip) is a hyperbola fitted to the arm
+   * that happened to lie over black ink.
+   * ------------------------------------------------------------------------------------------ */
+  var KEEP = 0.5, PEN = 0.4;   // whole-pixel refinement: share of the best outline evidence a placement must keep; cost of each pixel moved
+  var HYP_A = 20.714, HYP_B = 0.819, HYP_E = 5.591, HYP_C = 19.334, HALF = 48, ALPHA0 = 0.5;
+
+  function armHalf(d) { var t = HYP_B * (d + HYP_E); return Math.sqrt(HYP_A * HYP_A + t * t) - HYP_C; }
+
+  /* Is the point (96 px units, from the centre) inside the star swollen by ge (shrunk when ge < 0)? */
+  function inStar(dx, dy, ge) {
+    var ax = dx < 0 ? -dx : dx, ay = dy < 0 ? -dy : dy, L = HALF + ge, d;
+    if (ax > L || ay > L) return false;
+    d = HALF - ay; if (d < 0) d = 0;
+    if (ax <= armHalf(d) + ge) return true;
+    d = HALF - ax; if (d < 0) d = 0;
+    return ay <= armHalf(d) + ge;
+  }
+
+  function defaultGrow(size) { return 0; }                       // the star is known to the pixel, so no extra margin by default
+
+  /* Coverage (0..1) of the star, swollen by prm.grow pixels. Same record shape as buildShape. */
+  function starShape(prm, w, h) {
+    var s = prm.size / 96, grow = Math.max(-3, prm.grow || 0), ge = grow / s, r = prm.size / 2;
+    var pad = Math.max(0, Math.ceil(grow)) + 2;
+    var x0 = Math.max(0, Math.floor(prm.cx - r) - pad), y0 = Math.max(0, Math.floor(prm.cy - r) - pad);
+    var x1 = Math.min(w, Math.ceil(prm.cx + r) + pad), y1 = Math.min(h, Math.ceil(prm.cy + r) + pad);
+    var rw = x1 - x0, rh = y1 - y0;
+    if (rw < 8 || rh < 8 || r < 3) return null;
+    var cov = new Float32Array(rw * rh), SS = 4, k = 1 / (SS * SS), lim = (HALF + Math.max(0, ge)) * s + 1.5;
+    var x, y, i, j, n, any = 0;
+    for (y = 0; y < rh; y++) {
+      var cyy = y0 + y + 0.5 - prm.cy;
+      if (cyy > lim || cyy < -lim) continue;
+      for (x = 0; x < rw; x++) {
+        var cxx = x0 + x + 0.5 - prm.cx;
+        if (cxx > lim || cxx < -lim) continue;
+        n = 0;
+        for (j = 0; j < SS; j++) for (i = 0; i < SS; i++) {
+          if (inStar((cxx + (i + 0.5) / SS - 0.5) / s, (cyy + (j + 0.5) / SS - 0.5) / s, ge)) n++;
+        }
+        if (n) { cov[y * rw + x] = n * k; any = 1; }
+      }
+    }
+    if (!any) return null;
+    return { x0: x0, y0: y0, x1: x1, y1: y1, w: rw, h: rh, alpha: cov };
+  }
+
+  /* Takes the white overlay off again: truth = (seen - 255 a) / (1 - a), never brighter than what we see. */
+  function unblendLogo(img, prm) {
+    var shape = starShape(prm, img.w, img.h);
+    if (!shape) return { changed: false, method: 'none', shape: null };
+    var A = clamp(prm.alpha == null ? ALPHA0 : prm.alpha, 0.05, 0.92), d = img.data, w = img.w, ch = 0, x, y, c;
+    for (y = 0; y < shape.h; y++) {
+      for (x = 0; x < shape.w; x++) {
+        var cv = shape.alpha[y * shape.w + x];
+        if (cv <= 0) continue;
+        var a = A * cv, base = 255 * a, inv = 1 / (1 - a), p = ((shape.y0 + y) * w + shape.x0 + x) * 4;
+        for (c = 0; c < 3; c++) {
+          var o = d[p + c], b = (o - base) * inv;
+          if (b < 0) b = 0; else if (b > o) b = o;
+          b = Math.round(b);
+          if (b !== o) { d[p + c] = b; ch++; }
+        }
+      }
+    }
+    return { changed: ch > 0, method: 'unblend', shape: shape };
+  }
+
+  /* method "patch" repaints from the surroundings (any logo), anything else takes the known overlay off. */
+  function removeLogo(img, prm) {
+    return prm.method === 'patch' ? removePatch(img, prm) : unblendLogo(img, prm);
+  }
+
+  function shapeFor(prm, w, h) {
+    return prm.method === 'patch' ? buildShape(prm, w, h) : starShape(prm, w, h);
+  }
+
+  /* ---------- finding the mark ---------- */
+  function grayOf(data, n) {
+    var G = new Float32Array(n);
+    for (var i = 0, j = 0; i < n; i++, j += 4) G[i] = (data[j] + data[j + 1] + data[j + 2]) / 3;
+    return G;
+  }
+
+  function samp(G, w, h, x, y) {          // bilinear, pixel centres at +0.5; -1 outside
+    x -= 0.5; y -= 0.5;
+    var xi = Math.floor(x), yi = Math.floor(y), fx = x - xi, fy = y - yi;
+    if (xi < 0 || yi < 0 || xi + 1 >= w || yi + 1 >= h) return -1;
+    var i = yi * w + xi;
+    return (G[i] * (1 - fx) + G[i + 1] * fx) * (1 - fy) + (G[i + w] * (1 - fx) + G[i + w + 1] * fx) * fy;
+  }
+
+  /* Points on the star's outline (96 px units) with outward normals; skips the tips and the inner corners. */
+  var TPL = null;
+  function template() {
+    if (TPL) return TPL;
+    var out = [], d, x, y, k, m, t;
+    for (d = 6; d <= 40; d += 0.5) {
+      x = armHalf(d); y = -(HALF - d);
+      if (-y <= armHalf(HALF - x) + 2) continue;
+      var slope = (armHalf(d + 0.05) - armHalf(d - 0.05)) / 0.1, L = Math.sqrt(1 + slope * slope), nx = 1 / L, ny = -slope / L;
+      for (k = 0; k < 4; k++) {
+        for (m = 0; m < 2; m++) {
+          var X = m ? -x : x, Y = y, NX = m ? -nx : nx, NY = ny, tmp;
+          for (t = 0; t < k; t++) { tmp = -Y; Y = X; X = tmp; tmp = -NY; NY = NX; NX = tmp; }
+          out.push([X, Y, NX, NY]);
+        }
+      }
+    }
+    return (TPL = out);
+  }
+
+  /*
+   * Walks the outline and compares a point just inside with one just outside. Over anything that is not paper-white a
+   * 50 % white overlay lifts the inside by half the distance to white: r = (in - out) / (255 - out) = alpha.
+   * Counts agreeing pairs (n1), pairs showing no lift at all (n0) and pairs that can tell (nq).
+   */
+  function ledgeCount(G, w, h, cx, cy, size, alpha, tol, stride, rs) {
+    var T = template(), s = size / 96, t = Math.max(1.6, 2 * s), n1 = 0, n0 = 0, nq = 0, sx = 0, sy = 0, i;
+    for (i = 0; i < T.length; i += stride) {
+      var e = T[i], px = cx + e[0] * s, py = cy + e[1] * s;
+      var vi = samp(G, w, h, px - e[2] * t, py - e[3] * t);
+      if (vi < 0) continue;
+      var vo = samp(G, w, h, px + e[2] * t, py + e[3] * t);
+      if (vo < 0 || vo > 215) continue;
+      nq++;
+      var r = (vi - vo) / (255 - vo);
+      if (rs) { if (vo < 30) rs.black.push(vi / 255); else rs.other.push(r); }
+      if (Math.abs(r - alpha) <= tol) { n1++; sx += e[2]; sy += e[3]; } else if (Math.abs(r) <= 0.1) n0++;
+    }
+    return { n1: n1, n0: n0, nq: nq, spread: n1 ? Math.sqrt(sx * sx + sy * sy) / n1 : 1 };
+  }
+
+  /* What sits inside the star (shrunk a little): flat grey at the overlay level, anything darker than it can be. */
+  function coreCount(G, w, h, cx, cy, size, alpha) {
+    var s = size / 96, ge = -2.5 / s, r = size / 2, g = 255 * alpha, flat = 0, low = 0, dark = 0, n = 0, x, y;
+    var x0 = Math.max(0, Math.floor(cx - r)), x1 = Math.min(w, Math.ceil(cx + r)), y0 = Math.max(0, Math.floor(cy - r)), y1 = Math.min(h, Math.ceil(cy + r));
+    for (y = y0; y < y1; y++) {
+      for (x = x0; x < x1; x++) {
+        if (!inStar((x + 0.5 - cx) / s, (y + 0.5 - cy) / s, ge)) continue;
+        n++;
+        var v = G[y * w + x];
+        if (v < 245) dark++;
+        if (Math.abs(v - g) <= 7) flat++;
+        if (v < g - 14) low++;
+      }
+    }
+    return { n: n, flat: flat, low: low, dark: dark };
+  }
+
+  function median(a) { a = a.slice().sort(function (p, q) { return p - q; }); return a[a.length >> 1]; }
+
+  /* Only trust a measurement backed by many black-ink pairs (there the lift is read straight off the picture). */
+  function estimateAlpha(rs) {
+    if (rs.black.length < 12) return 0;
+    var a = median(rs.black);
+    return (a >= 0.25 && a <= 0.75 && Math.abs(a - ALPHA0) > 0.04) ? a : 0;
+  }
+
+  /* All the evidence for a star at prm (cx, cy, size) in img, read at the usual 50 % (and at a measured level when that differs). */
+  function measureAt(img, prm, G) {
+    var w = img.w, h = img.h;
+    G = G || grayOf(img.data, w * h);
+    var rs = { black: [], other: [] }, a = ALPHA0;
+    var L = ledgeCount(G, w, h, prm.cx, prm.cy, prm.size, ALPHA0, 0.12, 1, rs);
+    var C = coreCount(G, w, h, prm.cx, prm.cy, prm.size, ALPHA0);
+    var m = { alpha: ALPHA0, measured: false, n1: L.n1, n0: L.n0, nq: L.nq, spread: L.spread, flat: C.flat, low: C.low, dark: C.dark, n: C.n };
+    var est = estimateAlpha(rs);
+    if (est && !verdictOf(m)) {
+      var L2 = ledgeCount(G, w, h, prm.cx, prm.cy, prm.size, est, 0.1, 1, null), C2 = coreCount(G, w, h, prm.cx, prm.cy, prm.size, est);
+      var m2 = { alpha: est, measured: true, n1: L2.n1, n0: L2.n0, nq: L2.nq, spread: L2.spread, flat: C2.flat, low: C2.low, dark: C2.dark, n: C2.n };
+      if (verdictOf(m2)) m = m2;
+    }
+    return m;
+  }
+
+  /*
+   * Sub-pixel registration: at the model's outline the picture should sit halfway between the inside and outside plateaus.
+   * Tries shifts of the whole star on a fine grid and keeps the one whose outline falls where the picture's step is.
+   */
+  function registerStar(G, w, h, cx, cy, size, alpha, range) {
+    var T = template(), s = size / 96, t = Math.max(2.4, 2.6 * s), pairs = [], i;
+    for (i = 0; i < T.length; i++) {
+      var e = T[i], px = cx + e[0] * s, py = cy + e[1] * s;
+      var vi = samp(G, w, h, px - e[2] * t, py - e[3] * t), vo = samp(G, w, h, px + e[2] * t, py + e[3] * t);
+      if (vi < 0 || vo < 0 || vo > 215 || vi - vo < 24) continue;
+      var r = (vi - vo) / (255 - vo);
+      if (Math.abs(r - alpha) > 0.16) continue;
+      pairs.push([px, py, vi, vo]);
+    }
+    var best = { dx: 0, dy: 0, loss: Infinity, loss0: Infinity, n: pairs.length }, sx, sy, k, lam = 0.015 * pairs.length;
+    if (pairs.length < 6) return best;
+    range = range || 1.75;
+    for (sy = -range; sy <= range + 1e-9; sy += 0.25) {
+      for (sx = -range; sx <= range + 1e-9; sx += 0.25) {
+        var raw = 0;
+        for (k = 0; k < pairs.length; k++) {
+          var q = pairs[k], vb = samp(G, w, h, q[0] + sx, q[1] + sy);
+          var f = vb < 0 ? 0.5 : (vb - q[3]) / (q[2] - q[3]);
+          if (f < 0) f = 0; else if (f > 1) f = 1;
+          raw += (f - 0.5) * (f - 0.5);
+        }
+        if (sx === 0 && sy === 0) best.loss0 = raw;
+        var loss = raw + lam * (sx * sx + sy * sy);
+        if (loss < best.loss) { best.loss = loss; best.dx = sx; best.dy = sy; best.raw = raw; }
+      }
+    }
+    return best;
+  }
+
+  /*
+   * Precision score of a placement: at the model's outline the picture should sit halfway between the plateaus
+   * just inside and just outside. Each outline pair that can tell scores 0.25 - (f - 0.5)^2, so a star one pixel
+   * off scores far less than the right one, and so does one of the wrong size.
+   */
+  function halfScore(G, w, h, cx, cy, size, alpha) {
+    var T = template(), s = size / 96, t = Math.max(2.4, 2.6 * s), sum = 0, n = 0, i;
+    for (i = 0; i < T.length; i++) {
+      var e = T[i], px = cx + e[0] * s, py = cy + e[1] * s;
+      var vi = samp(G, w, h, px - e[2] * t, py - e[3] * t), vo = samp(G, w, h, px + e[2] * t, py + e[3] * t);
+      if (vi < 0 || vo < 0 || vo > 215 || vi - vo < 24) continue;
+      var r = (vi - vo) / (255 - vo);
+      if (Math.abs(r - alpha) > 0.16) continue;
+      var vb = samp(G, w, h, px, py);
+      if (vb < 0) continue;
+      var f = (vb - vo) / (vi - vo);
+      f = f < 0 ? 0 : (f > 1 ? 1 : f);
+      sum += 0.25 - (f - 0.5) * (f - 0.5); n++;
+    }
+    return { score: sum, n: n };
+  }
+
+  function verdictOf(m, strict) {
+    var nMin = strict ? 22 : 14, ratio = strict ? 4 : 3;
+    if (m.n1 >= nMin && m.n1 >= ratio * m.n0 && m.spread <= 0.85 && m.low <= Math.max(3, 0.03 * m.dark)) return 'ledge';
+    if (m.flat >= (strict ? 160 : 100) && m.low <= 1 && m.n0 <= 3) return 'flat';
+    if (!strict && m.flat >= 250 && m.low <= 1 && m.n1 >= 8 && m.n0 <= 10) return 'flat';
+    return '';
+  }
+
+  /* Nothing below the floor the overlay allows, so a real overlay is at least possible here. */
+  function overlayPossible(m) { return m.low <= Math.max(3, 0.03 * m.dark); }
+
+  /* Pixels sitting at the grey level that black ink takes under the overlay (a subsample when there are very many). */
+  function flatList(G, w, h, alpha) {
+    var g = 255 * alpha, out = [], n = 0, i, x, y;
+    for (i = 0; i < w * h; i++) if (Math.abs(G[i] - g) <= 6) n++;
+    var step = Math.max(1, Math.ceil(n / 3000)), k = 0;
+    for (y = 0; y < h; y++) {
+      for (x = 0; x < w; x++) {
+        if (Math.abs(G[y * w + x] - g) <= 6 && (k++ % step) === 0) out.push(x, y);
+      }
+    }
+    return { pts: out, step: step };
+  }
+
+  /* How much of that grey a candidate star holds, and how much lies just outside it (a star that is too small leaves some). */
+  function flatStats(FL, cx, cy, size) {
+    var s = size / 96, inner = -2.5 / s, outer = 2.5 / s, lim = size * 0.95, P = FL.pts, core = 0, ring = 0, i;
+    for (i = 0; i < P.length; i += 2) {
+      var dx = P[i] + 0.5 - cx, dy = P[i + 1] + 0.5 - cy;
+      if (dx > lim || dx < -lim || dy > lim || dy < -lim) continue;
+      if (inStar(dx / s, dy / s, inner)) core++;
+      else if (!inStar(dx / s, dy / s, outer)) ring++;
+    }
+    return { core: core * FL.step, ring: ring * FL.step };
+  }
+
+  /*
+   * Looks for the mark in the bottom-right window img of an imgW x imgH picture.
+   * mode "std": the usual size and place (a few pixels of slack); mode "wide": any size, any margin.
+   * Returns { found, kind, size, right, bottom, alpha } or { found: false, blank, possible, alpha }.
+   */
+  function detectStar(img, imgW, imgH, mode) {
+    var w = img.w, h = img.h, G = grayOf(img.data, w * h), std = defaultGeometry(imgW, imgH), best = null, dx, dy;
+    var sm = std.size, smm = Math.round(sm * 2 / 3), stdC = coreCount(G, w, h, w - smm - sm / 2, h - smm - sm / 2, sm, ALPHA0);
+    var miss = { found: false, blank: stdC.dark <= 3, possible: stdC.low <= Math.max(3, 0.03 * stdC.dark), alpha: ALPHA0 };
+    function hit(m, kind, size, cx, cy) {
+      return { found: true, kind: kind, size: size, right: Math.round(w - (cx + size / 2)), bottom: Math.round(h - (cy + size / 2)), alpha: m.alpha, ev: m };
+    }
+    function align(size, cx, cy) {                      // nudge by whole pixels when the picture clearly says so
+      for (var it = 0; it < 2; it++) {
+        var reg = registerStar(G, w, h, cx, cy, size, ALPHA0, 1.75);
+        if (reg.n < 12 || reg.loss0 - reg.raw < Math.max(1.5, 0.08 * reg.n)) break;
+        cx += reg.dx; cy += reg.dy;
+      }
+      return [Math.round(cx), Math.round(cy)];
+    }
+    /*
+     * Whole-pixel search of size and both margins around a good guess. Only placements that keep most of the best
+     * outline evidence compete; among those the one whose outline meets the picture's step most exactly wins.
+     */
+    function refine(size, cx, cy, ds, dp) {
+      var r0 = Math.round(w - cx - size / 2), b0 = Math.round(h - cy - size / 2), list = [], top = -1e9, s, r, b, k;
+      for (s = size - ds; s <= size + ds; s++) {
+        if (s < 24) continue;
+        for (r = r0 - dp; r <= r0 + dp; r++) {
+          for (b = b0 - dp; b <= b0 + dp; b++) {
+            var px = w - r - s / 2, py = h - b - s / 2, L = ledgeCount(G, w, h, px, py, s, ALPHA0, 0.14, 1, null), ls = L.n1 - 2 * L.n0;
+            list.push({ s: s, r: r, b: b, px: px, py: py, ls: ls });
+            if (ls > top) top = ls;
+          }
+        }
+      }
+      var out = { size: size, cx: cx, cy: cy }, bestAdj = -1e9;
+      if (top < 12) return out;
+      for (k = 0; k < list.length; k++) {
+        var c = list[k];
+        if (c.ls < KEEP * top) continue;
+        var q = halfScore(G, w, h, c.px, c.py, c.s, ALPHA0);
+        if (q.n < 8) continue;
+        var adj = q.score - PEN * (Math.abs(c.s - size) + Math.abs(c.r - r0) + Math.abs(c.b - b0));
+        if (adj > bestAdj) { bestAdj = adj; out = { size: c.s, cx: c.px, cy: c.py }; }
+      }
+      return out;
+    }
+    function consider(size, cx, cy, stride, pen) {
+      var L = ledgeCount(G, w, h, cx, cy, size, ALPHA0, 0.14, stride, null);
+      var sc = L.n1 - 2 * L.n0 - pen;
+      if (!best || sc > best.sc) best = { sc: sc, size: size, cx: cx, cy: cy };
+    }
+    var m, kind, c;
+    if (mode !== 'wide') {
+      // 1) exactly where Gemini puts it
+      var cx0 = w - smm - sm / 2, cy0 = h - smm - sm / 2;
+      m = measureAt(img, { cx: cx0, cy: cy0, size: sm }, G); kind = verdictOf(m);
+      if (kind) return hit(m, kind, sm, cx0, cy0);
+      // 2) a little off, or the other size
+      [sm, sm === 96 ? 48 : 96].forEach(function (s) {
+        var mm = Math.round(s * 2 / 3), ax = w - mm - s / 2, ay = h - mm - s / 2;
+        for (dy = -2; dy <= 2; dy++) for (dx = -2; dx <= 2; dx++) {
+          if (s === sm && !dx && !dy) continue;
+          consider(s, ax + dx, ay + dy, 1, 2 * (Math.abs(dx) + Math.abs(dy)));
+        }
+      });
+      if (!best) return miss;
+      c = align(best.size, best.cx, best.cy);
+      m = measureAt(img, { cx: c[0], cy: c[1], size: best.size }, G); kind = verdictOf(m, true);
+      return kind ? hit(m, kind, best.size, c[0], c[1]) : miss;
+    }
+    // wide: the usual place first; then a picture that was cropped (usual size, other margins) or resized (other size, proportional margins)
+    var usual = detectStar(img, imgW, imgH, 'std');
+    if (usual.found) return usual;
+    var cands = [], s0 = std.size, r, b2, s1, o;
+    for (r = 0; r <= 140; r += 2) {
+      for (b2 = 0; b2 <= 140; b2 += 2) {
+        if (s0 + r > w || s0 + b2 > h) continue;
+        cands.push([s0, w - r - s0 / 2, h - b2 - s0 / 2, 4]);
+      }
+    }
+    for (s1 = 40; s1 <= 220; s1 += 2) {
+      var mm2 = Math.round(s1 * 2 / 3);
+      if (s1 + mm2 + 4 > Math.min(w, h)) continue;
+      for (dy = -4; dy <= 4; dy += 2) for (dx = -4; dx <= 4; dx += 2) cands.push([s1, w - mm2 - dx - s1 / 2, h - mm2 - dy - s1 / 2, 4]);
+    }
+    var scored = [];
+    cands.forEach(function (q) {
+      var L = ledgeCount(G, w, h, q[1], q[2], q[0], ALPHA0, 0.14, 3, null), sc = 3 * (L.n1 - 2 * L.n0);
+      if (sc >= 15) scored.push({ sc: sc - 3 * coreCount(G, w, h, q[1], q[2], q[0], ALPHA0).low, size: q[0], cx: q[1], cy: q[2] });
+    });
+    scored.sort(function (p, q) { return q.sc - p.sc; });
+    scored.slice(0, 24).forEach(function (t) {
+      for (var ds = -2; ds <= 2; ds++) {
+        if (t.size + ds < 24) continue;
+        for (dy = -2; dy <= 2; dy++) for (dx = -2; dx <= 2; dx++) {
+          var L2 = ledgeCount(G, w, h, t.cx + dx, t.cy + dy, t.size + ds, ALPHA0, 0.14, 1, null);
+          var sc2 = L2.n1 - 2 * L2.n0 - 3 * coreCount(G, w, h, t.cx + dx, t.cy + dy, t.size + ds, ALPHA0).low - 0.3 * (Math.abs(dx) + Math.abs(dy)) - 0.3 * Math.abs(ds);
+          if (!best || sc2 > best.sc) best = { sc: sc2, size: t.size + ds, cx: t.cx + dx, cy: t.cy + dy };
+        }
+      }
+    });
+    if (!best) return miss;
+    // the whole-pixel refinement first; when it does not hold up, the plain registration of the best guess
+    var rf = refine(best.size, best.cx, best.cy, 3, 3), tries = [[rf.size, rf.cx, rf.cy]];
+    c = align(best.size, best.cx, best.cy);
+    tries.push([best.size, c[0], c[1]]);
+    for (var ti = 0; ti < tries.length; ti++) {
+      var tz = tries[ti][0], tx = tries[ti][1], ty = tries[ti][2];
+      m = measureAt(img, { cx: tx, cy: ty, size: tz }, G);
+      // away from the usual place there is a lot to choose from, so ask for plenty of ink under the star and a clear verdict
+      kind = verdictOf(m, true);
+      if (kind && (m.dark < 150 || m.n1 < Math.max(30, 5 * m.n0) || m.low > 1 || tz < 40)) kind = '';
+      if (kind) return hit(m, kind, tz, tx, ty);
+    }
+    return miss;
+  }
+
+  /* Minimal ZIP writer (stored, no compression). Returns an array of Uint8Array parts. */
+  var CRC = (function () {
+    var t = new Uint32Array(256);
+    for (var n = 0; n < 256; n++) {
+      var c = n;
+      for (var k = 0; k < 8; k++) c = (c & 1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1);
+      t[n] = c >>> 0;
+    }
+    return t;
+  })();
+  function crc32(bytes) {
+    var c = 0xFFFFFFFF;
+    for (var i = 0; i < bytes.length; i++) c = CRC[(c ^ bytes[i]) & 0xFF] ^ (c >>> 8);
+    return (c ^ 0xFFFFFFFF) >>> 0;
+  }
+  function zipStore(files) {
+    var enc = new TextEncoder(), parts = [], central = [], offset = 0, now = new Date();
+    var dt = ((now.getHours() << 11) | (now.getMinutes() << 5) | (now.getSeconds() >> 1)) & 0xFFFF;
+    var dte = (((now.getFullYear() - 1980) << 9) | ((now.getMonth() + 1) << 5) | now.getDate()) & 0xFFFF;
+    files.forEach(function (f) {
+      var name = enc.encode(f.name), crc = crc32(f.data), size = f.data.length;
+      var lh = new DataView(new ArrayBuffer(30));
+      lh.setUint32(0, 0x04034b50, true); lh.setUint16(4, 20, true); lh.setUint16(6, 0x0800, true); lh.setUint16(8, 0, true);
+      lh.setUint16(10, dt, true); lh.setUint16(12, dte, true); lh.setUint32(14, crc, true);
+      lh.setUint32(18, size, true); lh.setUint32(22, size, true); lh.setUint16(26, name.length, true); lh.setUint16(28, 0, true);
+      parts.push(new Uint8Array(lh.buffer), name, f.data);
+      var ch = new DataView(new ArrayBuffer(46));
+      ch.setUint32(0, 0x02014b50, true); ch.setUint16(4, 20, true); ch.setUint16(6, 20, true); ch.setUint16(8, 0x0800, true); ch.setUint16(10, 0, true);
+      ch.setUint16(12, dt, true); ch.setUint16(14, dte, true); ch.setUint32(16, crc, true);
+      ch.setUint32(20, size, true); ch.setUint32(24, size, true); ch.setUint16(28, name.length, true);
+      ch.setUint16(30, 0, true); ch.setUint16(32, 0, true); ch.setUint16(34, 0, true); ch.setUint16(36, 0, true);
+      ch.setUint32(38, 0, true); ch.setUint32(42, offset, true);
+      central.push(new Uint8Array(ch.buffer), name);
+      offset += 30 + name.length + size;
+    });
+    var csize = 0;
+    central.forEach(function (p) { csize += p.length; });
+    var end = new DataView(new ArrayBuffer(22));
+    end.setUint32(0, 0x06054b50, true); end.setUint16(4, 0, true); end.setUint16(6, 0, true);
+    end.setUint16(8, files.length, true); end.setUint16(10, files.length, true);
+    end.setUint32(12, csize, true); end.setUint32(16, offset, true); end.setUint16(20, 0, true);
+    return parts.concat(central, [new Uint8Array(end.buffer)]);
+  }
+
+  root.LogoEngine = {
+    defaultGeometry: defaultGeometry,
+    defaultGrow: defaultGrow,
+    removeLogo: removeLogo,
+    removePatch: removePatch,
+    unblendLogo: unblendLogo,
+    starShape: starShape,
+    buildShape: buildShape,
+    shapeFor: shapeFor,
+    detectStar: detectStar,
+    measureAt: measureAt,
+    registerStar: registerStar,
+    verdictOf: verdictOf,
+    overlayPossible: overlayPossible,
+    zipStore: zipStore,
+    crc32: crc32
+  };
+  if (typeof module !== 'undefined' && module.exports) module.exports = root.LogoEngine;
+})(typeof window !== 'undefined' ? window : globalThis);
+
+</script>
+
+<script>
+(function () {
+  'use strict';
+  var E = window.LogoEngine;
+  function $(s) { return document.querySelector(s); }
+
+  var els = {
+    drop: $('#drop'), pick: $('#pick'), files: $('#files'), cv: $('#cv'), ov: $('#ov'), cap: $('#cap'), note: $('#note'),
+    busy: $('#busy'), vAfter: $('#vAfter'), vBefore: $('#vBefore'), fPng: $('#fPng'), fJpg: $('#fJpg'),
+    dlOne: $('#dlOne'), dlAll: $('#dlAll'), dlMsg: $('#dlMsg'), fallback: $('#fallback'), fbText: $('#fbText'), fbImg: $('#fbImg'),
+    bDetect: $('#bDetect'), bStd: $('#bStd'), bRemove: $('#bRemove'), bAll: $('#bAll'),
+    mUnblend: $('#mUnblend'), mPatch: $('#mPatch'), rowAlpha: $('#rowAlpha'), how: $('#how')
+  };
+  var ctl = {
+    size: { rng: $('#rSize'), out: $('#oSize'), unit: ' px' }, right: { rng: $('#rRight'), out: $('#oRight'), unit: ' px' },
+    bottom: { rng: $('#rBottom'), out: $('#oBottom'), unit: ' px' }, alpha: { rng: $('#rAlpha'), out: $('#oAlpha'), unit: ' %' },
+    grow: { rng: $('#rGrow'), out: $('#oGrow'), unit: ' px' }
+  };
+  var HOW = {
+    unblend: 'Gemini phủ ngôi sao trắng mờ lên ảnh. Cách này trừ đúng lớp trắng đó nên nét mực và số trang nằm dưới logo hiện lại nguyên vẹn.',
+    patch: 'Cách này vẽ lại vùng hồng từ nền xung quanh. Chỉ dùng khi dấu không phải ngôi sao trắng mờ của Gemini. Nét vẽ nằm dưới dấu sẽ không còn nguyên.'
+  };
+  var DEF_ALPHA = 50;
+
+  var items = [], seq = 0, selId = null, selSrc = null, view = 'after', fmt = 'png';
+  var downloads = null, fbURL = null, adjustTimer = 0;
+  var standalone = !(window.claude && typeof window.claude.use === 'function');   // opened as an ordinary web page, outside Claude
+  var winCanvas = document.createElement('canvas'), tmpCanvas = document.createElement('canvas');
+
+  try {
+    var maybe = window.claude && window.claude.use ? window.claude.use('downloads') : null;
+    if (maybe && maybe.then) maybe.then(function (d) { downloads = d || null; }, function () { downloads = null; });
+  } catch (e) { downloads = null; }
+
+  /* ---------- helpers ---------- */
+  function raf() { return new Promise(function (r) { requestAnimationFrame(function () { r(); }); }); }
+  function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+  function cur() { for (var i = 0; i < items.length; i++) if (items[i].id === selId) return items[i]; return null; }
+  function dim(src) { return { w: src.naturalWidth || src.width, h: src.naturalHeight || src.height }; }
+  function release(src) { if (src && src.close) { try { src.close(); } catch (e) {} } }
+  function count(st) { return items.filter(function (i) { return i.status === st; }).length; }
+  function baseName(n) {
+    var s = String(n || 'anh').replace(/\.[^.]+$/, '');
+    try { s = s.normalize('NFD').replace(/[̀-ͯ]/g, ''); } catch (e) {}
+    s = s.replace(/đ/g, 'd').replace(/Đ/g, 'D').replace(/[^A-Za-z0-9_\-]+/g, '_').replace(/^_+|_+$/g, '').slice(0, 60);
+    return s || 'anh';
+  }
+  function hexRGB(v) {
+    var m = /^#?([0-9a-f]{6})$/i.exec(String(v).trim());
+    if (!m) return [212, 23, 123];
+    var n = parseInt(m[1], 16);
+    return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+  }
+
+  async function decode(file) {
+    if (window.createImageBitmap) {
+      try { return await createImageBitmap(file); } catch (e) { /* try the slower route */ }
+    }
+    var url = URL.createObjectURL(file);
+    try {
+      return await new Promise(function (res, rej) {
+        var im = new Image();
+        im.onload = function () { res(im); };
+        im.onerror = function () { rej(new Error('decode')); };
+        im.src = url;
+      });
+    } finally { setTimeout(function () { URL.revokeObjectURL(url); }, 2000); }
+  }
+
+  function region(src, sx, sy, w, h) {
+    var c = document.createElement('canvas');
+    c.width = w; c.height = h;
+    var g = c.getContext('2d', { willReadFrequently: true });
+    g.drawImage(src, sx, sy, w, h, 0, 0, w, h);
+    return g.getImageData(0, 0, w, h);
+  }
+
+  /* ---------- parameters ---------- */
+  function growFor(method, size) { return method === 'patch' ? Math.max(3, Math.round(size * 0.05)) : 0; }
+
+  function stdParams(w, h, prev) {
+    var g = E.defaultGeometry(w, h), method = prev && prev.method ? prev.method : 'unblend';
+    return { size: g.size, right: g.right, bottom: g.bottom, alpha: prev ? prev.alpha : DEF_ALPHA, method: method, grow: prev ? prev.grow : growFor(method, g.size) };
+  }
+
+  function detect(src, w, h, mode) {
+    var ww = Math.min(w, 960), wh = Math.min(h, 960);
+    var img = region(src, w - ww, h - wh, ww, wh);
+    var det = E.detectStar({ data: img.data, w: ww, h: wh }, w, h, mode);
+    if (!det.found) return { found: false, blank: !!det.blank, params: stdParams(w, h) };
+    return { found: true, blank: false, params: { size: det.size, right: det.right, bottom: det.bottom, alpha: Math.round(det.alpha * 100), method: 'unblend', grow: 0 } };
+  }
+
+  /* Can the corner still hold a 50 % white veil? Under one, nothing is darker than half grey. */
+  function overlayFits(src, w, h, prm) {
+    var ww = Math.min(w, prm.right + prm.size + 8), wh = Math.min(h, prm.bottom + prm.size + 8);
+    var img = region(src, w - ww, h - wh, ww, wh);
+    var m = E.measureAt({ data: img.data, w: ww, h: wh }, { cx: ww - prm.right - prm.size / 2, cy: wh - prm.bottom - prm.size / 2, size: prm.size });
+    return E.overlayPossible(m);
+  }
+
+  /* For a page where nothing was found and the person asks for removal anyway: subtract the veil when the corner allows it, repaint otherwise. */
+  function pickMethod(it, src) {
+    if (it.methodSet) return;
+    var ok = true;
+    try { ok = overlayFits(src, it.w, it.h, it.params); } catch (e) { ok = true; }
+    it.params.method = ok ? 'unblend' : 'patch';
+    it.params.grow = growFor(it.params.method, it.params.size);
+  }
+
+  function engineParams(prm, cx, cy) {
+    return { cx: cx, cy: cy, size: prm.size, grow: prm.grow, alpha: prm.alpha / 100, method: prm.method };
+  }
+
+  function windowFor(src, w, h, prm) {
+    var ww = Math.min(w, Math.ceil(prm.right + prm.size * 3.6) + 8), wh = Math.min(h, Math.ceil(prm.bottom + prm.size * 3.6) + 8);
+    var ox = w - ww, oy = h - wh;
+    return { ox: ox, oy: oy, w: ww, h: wh, orig: region(src, ox, oy, ww, wh), out: null };
+  }
+
+  /* A corner that is all white shows nothing of the logo, and taking a veil off pale paper that never had one would darken it: leave it as it is. */
+  function leaveAlone(it) { return !!(it.blank && !it.manual && !it.sample); }
+
+  function removal(src, w, h, prm, leave) {
+    var win = windowFor(src, w, h, prm);
+    var out = new ImageData(new Uint8ClampedArray(win.orig.data), win.w, win.h);
+    var cx = win.w - prm.right - prm.size / 2, cy = win.h - prm.bottom - prm.size / 2;
+    if (!leave) E.removeLogo({ data: out.data, w: win.w, h: win.h }, engineParams(prm, cx, cy));
+    win.out = out;
+    return win;
+  }
+
+  function makeThumb(src, w, h) {
+    var s = 104 / Math.min(w, h), tw = Math.max(1, Math.round(w * s)), th = Math.max(1, Math.round(h * s));
+    var c = document.createElement('canvas'); c.width = tw; c.height = th;
+    var g = c.getContext('2d'); g.drawImage(src, 0, 0, tw, th);
+    try { return c.toDataURL('image/jpeg', 0.7); } catch (e) { return ''; }
+  }
+
+  /* ---------- the sample page ---------- */
+  function makeSampleFile() {
+    var W = 1100, H = 1100, c = document.createElement('canvas');
+    c.width = W; c.height = H;
+    var g = c.getContext('2d');
+    g.fillStyle = '#ffffff'; g.fillRect(0, 0, W, H);
+    g.fillStyle = '#15171b';
+    var s = 9, i, j;
+    for (j = -4; j < H / s + 4; j++) {
+      for (i = -4; i < W / s + 4; i++) {
+        var x = i * s + ((j & 1) ? s / 2 : 0), y = j * s;
+        var d = Math.hypot(W - x, H - y), t = Math.max(0, Math.min(1, 1 - d / 340));
+        if (t <= 0) continue;
+        g.beginPath(); g.arc(x, y, s * 0.64 * Math.sqrt(t), 0, 6.2832); g.fill();
+      }
+    }
+    g.strokeStyle = '#15171b'; g.lineCap = 'round';
+    for (i = 0; i < 8; i++) {
+      var a = Math.PI * (1.04 + i * 0.1);
+      g.lineWidth = 3 + (i % 3) * 3;
+      g.beginPath(); g.moveTo(W + Math.cos(a) * 60, H + Math.sin(a) * 60); g.lineTo(W + Math.cos(a) * 330, H + Math.sin(a) * 330); g.stroke();
+    }
+    g.lineWidth = 5;
+    g.beginPath(); g.moveTo(0, 90); g.lineTo(W - 280, 90); g.stroke();
+    // a stand-in for the logo, laid on the way Gemini does it: white at half strength, shaped like its four-point star
+    var size = 96, m = 64, cx = W - m - size / 2, cy = H - m - size / 2;
+    var shape = E.starShape({ cx: cx, cy: cy, size: size, grow: 0 }, W, H);
+    if (shape) {
+      var im = g.getImageData(shape.x0, shape.y0, shape.w, shape.h), px = im.data, k, q;
+      for (k = 0; k < shape.w * shape.h; k++) {
+        var al = 0.5 * shape.alpha[k];
+        if (al <= 0) continue;
+        for (q = 0; q < 3; q++) px[k * 4 + q] = Math.round(px[k * 4 + q] * (1 - al) + 255 * al);
+      }
+      g.putImageData(im, shape.x0, shape.y0);
+    }
+    return new Promise(function (res) {
+      c.toBlob(function (b) {
+        if (!b) { res(null); return; }
+        try { res(new File([b], 'anh-mau.png', { type: 'image/png' })); } catch (e) { b.name = 'anh-mau.png'; res(b); }
+      }, 'image/png');
+    });
+  }
+
+  /* ---------- list ---------- */
+  var LABEL = { done: 'Đã xoá', pending: 'Chờ xoá', busy: 'Đang xử lý…', error: 'Không đọc được' };
+
+  function chipText(it) {
+    if (it.status === 'done' && it.blank && !it.manual) return 'Không cần xoá';
+    return LABEL[it.status] || '';
+  }
+
+  function renderList() {
+    els.files.textContent = '';
+    items.forEach(function (it) {
+      var li = document.createElement('li');
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'thumb'; b.dataset.id = it.id;
+      b.setAttribute('aria-current', it.id === selId ? 'true' : 'false');
+      var img = document.createElement('img'); img.alt = ''; if (it.thumb) img.src = it.thumb;
+      var meta = document.createElement('span'); meta.className = 'meta';
+      var nm = document.createElement('span'); nm.className = 'nm'; nm.textContent = it.sample ? 'Ảnh mẫu' : it.name;
+      var st = document.createElement('span'); st.className = 'chip ' + it.status; st.textContent = chipText(it);
+      meta.appendChild(nm); meta.appendChild(st); b.appendChild(img); b.appendChild(meta);
+      var x = document.createElement('button'); x.type = 'button'; x.className = 'rm'; x.dataset.id = it.id; x.setAttribute('aria-label', 'Bỏ ảnh ' + (it.sample ? 'mẫu' : it.name)); x.textContent = '×';
+      li.appendChild(b); li.appendChild(x); els.files.appendChild(li);
+    });
+    updateActions();
+  }
+
+  function updateActions() {
+    var it = cur(), done = count('done'), pend = count('pending');
+    els.dlOne.disabled = !(it && it.status === 'done' && !it.dirty);
+    els.dlAll.hidden = done < 2;
+    els.bRemove.hidden = !(it && it.status === 'pending');
+    els.bAll.hidden = pend < 2;
+    els.bAll.textContent = 'Xoá cả ' + pend + ' ảnh chờ xoá';
+    els.vAfter.disabled = !(it && it.status === 'done');
+    var has = !!(it && it.win && (it.status === 'done' || it.status === 'pending'));
+    [els.bDetect, els.bStd, els.mUnblend, els.mPatch].forEach(function (b) { b.disabled = !has; });
+  }
+
+  /* ---------- loupe ---------- */
+  function drawLoupe() {
+    var it = cur(); if (!it || !it.win) return;
+    var win = it.win, prm = it.params, showAfter = (view === 'after') && it.status === 'done' && win.out && !it.dirty;
+    var L = Math.round(Math.max(prm.right, prm.bottom) + prm.size * 1.6);
+    L = Math.max(120, Math.min(L, win.w, win.h));
+    var sx = win.w - L, sy = win.h - L;
+    winCanvas.width = win.w; winCanvas.height = win.h;
+    winCanvas.getContext('2d').putImageData(showAfter ? win.out : win.orig, 0, 0);
+    els.cv.width = L; els.cv.height = L;
+    var g = els.cv.getContext('2d');
+    g.imageSmoothingEnabled = false;
+    g.drawImage(winCanvas, sx, sy, L, L, 0, 0, L, L);
+    var zoom = els.cv.clientWidth / L;
+    els.cv.style.imageRendering = zoom > 1.2 ? 'pixelated' : 'auto';
+    els.ov.width = L; els.ov.height = L;
+    var o = els.ov.getContext('2d'); o.clearRect(0, 0, L, L);
+    if (!showAfter) {
+      var cx = win.w - prm.right - prm.size / 2, cy = win.h - prm.bottom - prm.size / 2;
+      var shape = E.shapeFor(engineParams(prm, cx, cy), win.w, win.h);
+      if (shape) {
+        var rgb = hexRGB(getComputedStyle(document.documentElement).getPropertyValue('--mask'));
+        var im = new ImageData(shape.w, shape.h), sw = shape.w, sh = shape.h, px, py;
+        for (py = 0; py < sh; py++) {
+          for (px = 0; px < sw; px++) {
+            var k = py * sw + px, a = shape.alpha[k], edge = 0;
+            if (a >= 0.5) {
+              if (px === 0 || py === 0 || px === sw - 1 || py === sh - 1 || shape.alpha[k - 1] < 0.5 || shape.alpha[k + 1] < 0.5 || shape.alpha[k - sw] < 0.5 || shape.alpha[k + sw] < 0.5) edge = 1;
+            }
+            im.data[k * 4] = rgb[0]; im.data[k * 4 + 1] = rgb[1]; im.data[k * 4 + 2] = rgb[2];
+            im.data[k * 4 + 3] = edge ? 255 : Math.round(a * 52);
+          }
+        }
+        tmpCanvas.width = shape.w; tmpCanvas.height = shape.h;
+        tmpCanvas.getContext('2d').putImageData(im, 0, 0);
+        o.drawImage(tmpCanvas, shape.x0 - sx, shape.y0 - sy);
+        if (prm.method === 'patch') {
+          o.strokeStyle = 'rgb(' + rgb.join(',') + ')'; o.lineWidth = 1; o.setLineDash([4, 3]);
+          o.strokeRect(cx - prm.size / 2 - sx + 0.5, cy - prm.size / 2 - sy + 0.5, prm.size, prm.size);
+        }
+      }
+    }
+    els.cap.textContent = 'Vùng ' + L + ' × ' + L + ' px · ảnh ' + it.w + ' × ' + it.h + ' px';
+  }
+
+  function setView(v) {
+    var it = cur();
+    if (v === 'after' && !(it && it.status === 'done')) v = 'before';
+    view = v;
+    els.vAfter.setAttribute('aria-pressed', v === 'after' ? 'true' : 'false');
+    els.vBefore.setAttribute('aria-pressed', v === 'before' ? 'true' : 'false');
+    drawLoupe();
+  }
+
+  function syncControls() {
+    var it = cur(); if (!it || !it.params) return;
+    var prm = it.params, patch = prm.method === 'patch';
+    ctl.size.rng.max = String(Math.max(24, Math.min(256, Math.floor(Math.min(it.w, it.h) / 3))));
+    ctl.right.rng.max = String(Math.max(0, Math.min(400, Math.floor(it.w / 2))));
+    ctl.bottom.rng.max = String(Math.max(0, Math.min(400, Math.floor(it.h / 2))));
+    ctl.grow.rng.max = patch ? '16' : '4';
+    Object.keys(ctl).forEach(function (k) { ctl[k].rng.value = String(prm[k]); ctl[k].out.textContent = prm[k] + ctl[k].unit; });
+    els.mUnblend.setAttribute('aria-pressed', patch ? 'false' : 'true');
+    els.mPatch.setAttribute('aria-pressed', patch ? 'true' : 'false');
+    els.rowAlpha.hidden = patch;
+    els.how.textContent = patch ? HOW.patch : HOW.unblend;
+  }
+
+  function setNote(text, warn) { els.note.textContent = text; els.note.className = 'note' + (warn ? ' warn' : ''); }
+
+  function describe(it) {
+    var p = it.params, at = 'cỡ ' + p.size + ' px, cách mép phải ' + p.right + ' px, cách mép dưới ' + p.bottom + ' px';
+    if (it.status === 'pending') {
+      if (it.manual) return 'Vùng hồng (' + at + ') là chỗ sẽ bị thay. Khi nó trùm đúng logo, bấm “Xoá logo”.';
+      return 'Chưa thấy dấu của logo Gemini ở góc này nên chưa đổi gì trên ảnh. Có thể ảnh đã được xoá logo từ trước, hoặc logo nằm chỗ khác. Vùng hồng là chỗ logo thường nằm: nếu bạn thấy logo trong đó, bấm “Xoá logo”.';
+    }
+    var how = p.method === 'patch'
+      ? 'Đã vẽ lại vùng này từ nền xung quanh, nét vẽ nằm dưới logo không phục hồi được.'
+      : 'Đã trừ lớp trắng ' + p.alpha + ' % của logo, nét mực bên dưới hiện lại.';
+    if (it.sample) return 'Ảnh mẫu có logo giả lập (trắng mờ 50 %) đè lên nét mực ở góc dưới bên phải. ' + how + ' Bấm “Gốc” để so sánh.';
+    if (leaveAlone(it)) return 'Góc dưới bên phải trắng hoàn toàn, nên logo trắng không hiện ra gì và ảnh được giữ nguyên. Nếu vẫn thấy sao mờ, bấm “Về vị trí chuẩn” để xoá.';
+    if (it.manual) return 'Xoá theo thông số chỉnh tay (' + at + '). ' + how;
+    if (it.found) return 'Đã dò thấy logo (' + at + '). ' + how + ' Bấm “Gốc” để so sánh.';
+    return 'Xoá ở vị trí chuẩn của Gemini (' + at + '). ' + how;
+  }
+
+  /* ---------- selecting and editing ---------- */
+  async function select(id) {
+    var it = null, i;
+    for (i = 0; i < items.length; i++) if (items[i].id === id) it = items[i];
+    if (!it) return;
+    clearTimeout(adjustTimer);
+    selId = id; renderList();
+    els.dlMsg.textContent = ''; els.fallback.hidden = true;
+    if (it.status === 'busy' || it.status === 'error') {
+      setNote(it.status === 'error' ? 'Không đọc được ảnh này. Thử lưu lại thành PNG hoặc JPG rồi chọn lại.' : 'Đang xử lý ảnh này…', it.status === 'error');
+      return;
+    }
+    els.busy.hidden = false; await raf();
+    try {
+      release(selSrc); selSrc = await decode(it.file);
+      if (it.status === 'done') it.win = removal(selSrc, it.w, it.h, it.params, leaveAlone(it)); else it.win = windowFor(selSrc, it.w, it.h, it.params);
+      it.dirty = false;
+    } catch (e) { it.status = 'error'; renderList(); setNote('Không đọc lại được ảnh này.', true); els.busy.hidden = true; return; }
+    els.busy.hidden = true;
+    syncControls(); setNote(describe(it)); updateActions(); setView(it.status === 'done' ? 'after' : 'before');
+  }
+
+  async function reprocess() {
+    var it = cur(); if (!it || !selSrc || it.status === 'error') return;
+    els.busy.hidden = false; await raf(); await sleep(0);
+    try { it.win = removal(selSrc, it.w, it.h, it.params, leaveAlone(it)); it.dirty = false; it.status = 'done'; }
+    catch (e) { setNote('Không xoá được với thông số này.', true); els.busy.hidden = true; return; }
+    els.busy.hidden = true;
+    setNote(describe(it)); renderList(); setView('after');
+  }
+
+  /* after any change of the numbers: show the original with the new outline; a finished page is redone shortly after */
+  function afterEdit(delay) {
+    var it = cur(); if (!it || !selSrc) return;
+    try { it.win = windowFor(selSrc, it.w, it.h, it.params); } catch (e) { return; }
+    if (it.status === 'done') {
+      it.dirty = true; updateActions(); setView('before');
+      clearTimeout(adjustTimer); adjustTimer = setTimeout(reprocess, delay);
+    } else {
+      setNote(describe(it)); setView('before');
+    }
+  }
+
+  function changeParam(k, v) {
+    var it = cur(); if (!it || !it.params || !selSrc || it.status === 'error' || it.status === 'busy') return;
+    var lo = +ctl[k].rng.min, hi = +ctl[k].rng.max;
+    v = Math.max(lo, Math.min(hi, Math.round(v)));
+    it.params[k] = v; it.manual = true;
+    ctl[k].rng.value = String(v); ctl[k].out.textContent = v + ctl[k].unit;
+    afterEdit(380);
+  }
+
+  function setMethod(m) {
+    var it = cur(); if (!it || !it.params || !selSrc || it.status === 'error' || it.status === 'busy') return;
+    if (it.params.method === m) return;
+    it.params.method = m; it.params.grow = growFor(m, it.params.size); it.manual = true; it.methodSet = true;
+    syncControls();
+    afterEdit(150);
+  }
+
+  function applyParams(params, found) {
+    var it = cur(); if (!it || !selSrc) return;
+    it.params = params; it.found = found; it.manual = false; it.blank = false;
+    syncControls();
+    afterEdit(150);
+  }
+
+  async function removeSelected() {
+    var it = cur(); if (!it || it.status !== 'pending' || !selSrc) return;
+    pickMethod(it, selSrc); syncControls();
+    it.status = 'done'; it.dirty = true; renderList();
+    await reprocess();
+  }
+
+  async function removeAllPending() {
+    var list = items.filter(function (i) { return i.status === 'pending'; }), n;
+    els.bAll.disabled = true; els.bRemove.disabled = true;
+    for (n = 0; n < list.length; n++) {
+      var it = list[n], src = null, own = false;
+      setNote('Đang xoá ảnh ' + (n + 1) + '/' + list.length + '…'); await raf();
+      try {
+        if (it.id === selId && selSrc) src = selSrc; else { src = await decode(it.file); own = true; }
+        pickMethod(it, src);
+        var res = removal(src, it.w, it.h, it.params, false);
+        if (own) res.orig = null;
+        it.win = res; it.status = 'done'; it.dirty = false;
+      } catch (e) { it.status = 'error'; }
+      if (own) release(src);
+      renderList();
+    }
+    els.bAll.disabled = false; els.bRemove.disabled = false;
+    if (selId != null) await select(selId);
+  }
+
+  /* ---------- adding images ---------- */
+  async function prepare(it) {
+    var src = null;
+    try {
+      src = await decode(it.file);
+      var d = dim(src); it.w = d.w; it.h = d.h;
+      if (!it.w || !it.h) throw new Error('size');
+      it.thumb = makeThumb(src, it.w, it.h);
+      var det = detect(src, it.w, it.h, 'std'); it.params = det.params; it.found = det.found; it.blank = det.blank && !det.found;
+      await raf();
+      if (det.found || it.blank || it.sample) {
+        var res = removal(src, it.w, it.h, it.params, leaveAlone(it));
+        res.orig = null; it.win = res; it.status = 'done';
+      } else { it.win = null; it.status = 'pending'; }
+      it.dirty = false;
+    } catch (e) { it.status = 'error'; }
+    release(src);
+    renderList();
+    if (it.id === selId && (it.status === 'done' || it.status === 'pending')) select(it.id);
+  }
+
+  async function addFiles(list, opts) {
+    var all = Array.prototype.slice.call(list || []);
+    var files = all.filter(function (f) { return /^image\//.test(f.type) || /\.(png|jpe?g|webp|bmp|gif|avif|heic|heif)$/i.test(f.name || ''); });
+    if (!files.length) { setNote('Không thấy ảnh nào trong lựa chọn vừa rồi.', true); return; }
+    if (!(opts && opts.sample)) {
+      for (var r = items.length - 1; r >= 0; r--) if (items[r].sample) { if (items[r].id === selId) { selId = null; release(selSrc); selSrc = null; } items.splice(r, 1); }
+    }
+    var fresh = files.map(function (f) {
+      return { id: ++seq, file: f, name: f.name || ('anh-' + seq + '.png'), status: 'busy', params: null, sample: !!(opts && opts.sample), w: 0, h: 0, found: false, blank: false, manual: false, methodSet: false, dirty: false, win: null, thumb: '' };
+    });
+    fresh.forEach(function (it) { items.push(it); });
+    renderList();
+    for (var i = 0; i < fresh.length; i++) {
+      await prepare(fresh[i]);
+      if (i === 0) await select(fresh[0].id);
+    }
+  }
+
+  function removeItem(id) {
+    var idx = -1, i;
+    for (i = 0; i < items.length; i++) if (items[i].id === id) idx = i;
+    if (idx < 0) return;
+    var was = items[idx].id === selId;
+    items.splice(idx, 1);
+    if (was) { selId = null; release(selSrc); selSrc = null; }
+    renderList();
+    if (was && items.length) select(items[Math.min(idx, items.length - 1)].id);
+    if (!items.length) { els.cv.width = els.cv.width; els.ov.width = els.ov.width; setNote('Chưa có ảnh. Chọn ảnh ở trên để bắt đầu.'); els.cap.innerHTML = '&nbsp;'; updateActions(); }
+  }
+
+  /* ---------- saving ---------- */
+  function mime() { return fmt === 'jpg' ? 'image/jpeg' : 'image/png'; }
+  function ext() { return fmt === 'jpg' ? 'jpg' : 'png'; }
+
+  async function renderBlob(it) {
+    var src = await decode(it.file), c = document.createElement('canvas');
+    c.width = it.w; c.height = it.h;
+    var g = c.getContext('2d');
+    if (fmt === 'jpg') { g.fillStyle = '#fff'; g.fillRect(0, 0, it.w, it.h); }
+    g.drawImage(src, 0, 0);
+    g.putImageData(it.win.out, it.win.ox, it.win.oy);
+    release(src);
+    var blob = await new Promise(function (res) { c.toBlob(res, mime(), 0.95); });
+    c.width = 1; c.height = 1;
+    if (!blob) throw new Error('toBlob');
+    return blob;
+  }
+
+  function showFallback(blob, text) {
+    if (fbURL) { URL.revokeObjectURL(fbURL); fbURL = null; }
+    if (blob && /^image\//.test(blob.type)) { fbURL = URL.createObjectURL(blob); els.fbImg.src = fbURL; els.fbImg.hidden = false; } else { els.fbImg.hidden = true; }
+    els.fbText.textContent = text; els.fallback.hidden = false;
+  }
+
+  /* On its own page the browser takes the file straight from a link with the download attribute. */
+  function browserDownload(blob, filename) {
+    try {
+      var url = URL.createObjectURL(blob), a = document.createElement('a');
+      a.href = url; a.download = filename; a.rel = 'noopener'; a.style.display = 'none';
+      document.body.appendChild(a); a.click();
+      setTimeout(function () { if (a.parentNode) a.parentNode.removeChild(a); URL.revokeObjectURL(url); }, 60000);
+      return true;
+    } catch (e) { return false; }
+  }
+
+  async function saveBlob(blob, filename, extra) {
+    els.fallback.hidden = true;
+    if (downloads) {
+      try { await downloads.save({ filename: filename, data: blob }); els.dlMsg.textContent = 'Đã gửi tệp ' + filename + ' để lưu.' + (extra || ''); return; }
+      catch (e) {
+        if (e && e.code === 'declined') { els.dlMsg.textContent = 'Bạn đã huỷ lưu. Bấm lại khi cần.'; return; }
+      }
+    }
+    if (standalone && browserDownload(blob, filename)) {
+      els.dlMsg.textContent = 'Đã gửi lệnh tải ' + filename + '.' + (extra || '');
+      if (/^image\//.test(blob.type)) showFallback(blob, 'Nếu trình duyệt không tải về, nhấn giữ ảnh bên dưới (hoặc bấm chuột phải) rồi chọn lưu ảnh. Trên iPhone, chọn “Lưu vào Ảnh”.');
+      return;
+    }
+    if (/^image\//.test(blob.type)) showFallback(blob, 'Trang này không tự lưu được tệp. Nhấn giữ ảnh bên dưới (hoặc bấm chuột phải) rồi chọn lưu ảnh.');
+    else showFallback(blob, 'Trình duyệt này không cho tải tệp .zip từ trang. Hãy tải từng ảnh một.');
+  }
+
+  async function downloadOne() {
+    var it = cur(); if (!it || it.status !== 'done' || it.dirty) return;
+    els.dlOne.disabled = true; els.dlMsg.textContent = 'Đang chuẩn bị tệp…'; await raf();
+    try {
+      var blob = await renderBlob(it);
+      await saveBlob(blob, baseName(it.name) + '-no-logo.' + ext());
+    } catch (e) { els.dlMsg.textContent = 'Không tạo được tệp. Ảnh có thể quá lớn so với bộ nhớ của trình duyệt này.'; }
+    updateActions();
+  }
+
+  async function downloadAll() {
+    var pending = cur();
+    if (pending && pending.dirty) { clearTimeout(adjustTimer); await reprocess(); }
+    var done = items.filter(function (i) { return i.status === 'done'; }), skipped = items.length - done.length;
+    if (!done.length) return;
+    els.dlAll.disabled = true; els.dlOne.disabled = true;
+    var files = [], used = {}, n;
+    try {
+      for (n = 0; n < done.length; n++) {
+        els.dlMsg.textContent = 'Đang ghép ảnh ' + (n + 1) + '/' + done.length + '…'; await raf();
+        var blob = await renderBlob(done[n]);
+        var nm = baseName(done[n].name) + '-no-logo', name = nm + '.' + ext(), c = 1;
+        while (used[name]) { c++; name = nm + '-' + c + '.' + ext(); }
+        used[name] = 1;
+        files.push({ name: name, data: new Uint8Array(await blob.arrayBuffer()) });
+      }
+      var zip = new Blob(E.zipStore(files), { type: 'application/zip' });
+      await saveBlob(zip, 'gemini-no-logo.zip', skipped ? ' Bỏ qua ' + skipped + ' ảnh chưa xoá.' : '');
+    } catch (e) { els.dlMsg.textContent = 'Không ghép được tất cả ảnh. Thử tải từng ảnh một.'; }
+    els.dlAll.disabled = false; updateActions();
+  }
+
+  /* ---------- wiring ---------- */
+  els.pick.addEventListener('change', function () { var f = els.pick.files; if (f && f.length) addFiles(f); els.pick.value = ''; });
+  ['dragenter', 'dragover'].forEach(function (t) { document.addEventListener(t, function (e) { if (e.dataTransfer && Array.prototype.indexOf.call(e.dataTransfer.types || [], 'Files') >= 0) { e.preventDefault(); els.drop.classList.add('over'); } }); });
+  ['dragleave', 'drop'].forEach(function (t) { document.addEventListener(t, function (e) { if (t === 'drop') { e.preventDefault(); if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length) addFiles(e.dataTransfer.files); } els.drop.classList.remove('over'); }); });
+  document.addEventListener('paste', function (e) {
+    var fl = e.clipboardData && e.clipboardData.files;
+    if (fl && fl.length) { e.preventDefault(); addFiles(fl); }
+  });
+  els.files.addEventListener('click', function (e) {
+    var rm = e.target.closest('.rm'); if (rm) { removeItem(+rm.dataset.id); return; }
+    var th = e.target.closest('.thumb'); if (th) select(+th.dataset.id);
+  });
+  els.vAfter.addEventListener('click', function () { setView('after'); });
+  els.vBefore.addEventListener('click', function () { setView('before'); });
+  Object.keys(ctl).forEach(function (k) { ctl[k].rng.addEventListener('input', function () { changeParam(k, +ctl[k].rng.value); }); });
+  document.querySelectorAll('.step').forEach(function (b) {
+    b.addEventListener('click', function () { var k = b.dataset.k, it = cur(); if (it && it.params) changeParam(k, it.params[k] + (+b.dataset.d)); });
+  });
+  els.mUnblend.addEventListener('click', function () { setMethod('unblend'); });
+  els.mPatch.addEventListener('click', function () { setMethod('patch'); });
+  els.bStd.addEventListener('click', function () { var it = cur(); if (it) applyParams(stdParams(it.w, it.h, it.params), false); });
+  els.bDetect.addEventListener('click', async function () {
+    var it = cur(); if (!it || !selSrc) return;
+    els.busy.hidden = false; await raf(); await sleep(0);
+    var det = detect(selSrc, it.w, it.h, 'wide');
+    els.busy.hidden = true;
+    if (det.found) {
+      applyParams(det.params, true);
+      if (it.status === 'pending') setNote('Đã dò thấy logo (cỡ ' + det.params.size + ' px). Kiểm tra vùng hồng rồi bấm “Xoá logo”.');
+    } else setNote('Dò kỹ vẫn chưa thấy logo quanh góc này. Nếu bạn thấy logo, kéo các thanh trượt cho vùng hồng trùm lên nó.', true);
+  });
+  els.bRemove.addEventListener('click', removeSelected);
+  els.bAll.addEventListener('click', removeAllPending);
+  function setFmt(f) { fmt = f; els.fPng.setAttribute('aria-pressed', f === 'png' ? 'true' : 'false'); els.fJpg.setAttribute('aria-pressed', f === 'jpg' ? 'true' : 'false'); }
+  els.fPng.addEventListener('click', function () { setFmt('png'); });
+  els.fJpg.addEventListener('click', function () { setFmt('jpg'); });
+  els.dlOne.addEventListener('click', downloadOne);
+  els.dlAll.addEventListener('click', downloadAll);
+  var rzTimer = 0;
+  window.addEventListener('resize', function () { clearTimeout(rzTimer); rzTimer = setTimeout(drawLoupe, 150); });
+  if (window.matchMedia) { try { window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', drawLoupe); } catch (e) {} }
+
+  updateActions();
+  setNote('Đang chuẩn bị ảnh mẫu…');
+  makeSampleFile().then(function (f) { if (f && !items.length) addFiles([f], { sample: true }); });
+})();
+
+</script>
+</body>
+</html>
